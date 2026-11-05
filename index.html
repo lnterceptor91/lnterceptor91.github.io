@@ -17,7 +17,7 @@
   h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 0 0 12px; }
   .app { display:flex; gap:16px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; text-decoration:none; color:inherit; }
   .app:hover { border-color: var(--accent); }
-  .icon { flex:none; width:64px; height:64px; border-radius:16px; background:#1C1917; display:grid; place-items:center; }
+  .icon { flex:none; width:64px; height:64px; border-radius:16px; object-fit:cover; }
   .app b { display:block; font-size:1.1rem; }
   .app span { color: var(--soft); }
   .soon { margin-top:12px; color:var(--muted); font-size:.95rem; }
@@ -32,9 +32,7 @@
 
   <h2>Apps</h2>
   <a class="app" href="/quickreminders/">
-    <div class="icon" aria-hidden="true">
-      <svg width="34" height="34" viewBox="0 0 24 24"><path fill="#F2A65A" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
-    </div>
+    <img class="icon" src="/quickreminders-icon.png" width="64" height="64" alt="">
     <div><b>Quick Reminders</b><span>Gentle desk-break reminders: stand up, posture, stretch, rest your eyes.</span></div>
   </a>
   <p class="soon">More apps and games are on the way.</p>
