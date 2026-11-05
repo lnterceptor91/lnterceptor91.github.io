@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inter6 Solutions</title>
+<meta name="description" content="Small, honest apps and games by Inter6 Solutions.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231C1917'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' text-anchor='middle' fill='%23F5A524'%3Ei6%3C/text%3E%3C/svg%3E">
+<style>
+  :root { --bg:#F4EFE8; --card:#FBF8F3; --line:#DDD3C5; --text:#2B2724; --soft:#4A443E; --muted:#766D64; --accent:#B86E10; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1C1917; --card:#292524; --line:#44403C; --text:#F5F0EB; --soft:#D6D3D1; --muted:#A8A29E; --accent:#F5A524; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 40px; }
+  h1 { font-size: 2.2rem; line-height:1.15; margin: 0 0 8px; letter-spacing:-0.02em; }
+  .lead { color: var(--soft); font-size: 1.1rem; margin: 0 0 40px; }
+  h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 0 0 12px; }
+  .app { display:flex; gap:16px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; text-decoration:none; color:inherit; }
+  .app:hover { border-color: var(--accent); }
+  .icon { flex:none; width:64px; height:64px; border-radius:16px; background:#1C1917; display:grid; place-items:center; }
+  .app b { display:block; font-size:1.1rem; }
+  .app span { color: var(--soft); }
+  .soon { margin-top:12px; color:var(--muted); font-size:.95rem; }
+  footer { margin-top: 56px; color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Inter6 Solutions</h1>
+  <p class="lead">Small, honest apps and games. No accounts, no tracking, no nonsense.</p>
+
+  <h2>Apps</h2>
+  <a class="app" href="/quickreminders/">
+    <div class="icon" aria-hidden="true">
+      <svg width="34" height="34" viewBox="0 0 24 24"><path fill="#F2A65A" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+    </div>
+    <div><b>Quick Reminders</b><span>Gentle desk-break reminders: stand up, posture, stretch, rest your eyes.</span></div>
+  </a>
+  <p class="soon">More apps and games are on the way.</p>
+
+  <footer>Contact: <a href="mailto:support@inter6solutions.com">support@inter6solutions.com</a></footer>
+</main>
+</body>
+</html>
